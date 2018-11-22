@@ -1,0 +1,1 @@
+SELECT COUNT(FirstName) FROM Customer WHERE SupportRepId = 4;

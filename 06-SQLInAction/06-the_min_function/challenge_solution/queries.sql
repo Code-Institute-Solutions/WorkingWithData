@@ -1,0 +1,1 @@
+SELECT MIN(BirthDate) FROM Employee;

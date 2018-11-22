@@ -1,0 +1,1 @@
+SELECT MIN(LastName) FROM Customer;

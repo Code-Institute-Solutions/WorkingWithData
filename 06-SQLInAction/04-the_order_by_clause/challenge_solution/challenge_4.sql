@@ -4,5 +4,5 @@ SELECT
     Invoice.Total
 FROM Invoice
 INNER JOIN Customer ON Invoice.CustomerId = Customer.CustomerId
-ORDER BY Total DESC
+ORDER BY Total DESC, InvoiceDate DESC
 LIMIT 10;
